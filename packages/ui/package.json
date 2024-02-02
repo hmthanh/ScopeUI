@@ -11,10 +11,12 @@
     }
   },
   "scripts": {
-    "lint": "eslint ."
+    "lint": "eslint .",
+    "scss": " sass --watch ./components/Button/Button.scss ./components/Button/Button.css"
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
+    "sass": "^1.70.0",
     "svelte": "^4.2.9"
   }
 }
