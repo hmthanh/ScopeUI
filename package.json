@@ -22,5 +22,7 @@
     "node": ">=18"
   },
   "dependencies": {
+    "focus-trap": "^7.5.4",
+    "tabbable": "^6.2.0"
   }
 }
