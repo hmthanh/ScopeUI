@@ -12,7 +12,7 @@
   },
   "scripts": {
     "lint": "eslint .",
-    "scss": " sass --watch ./components/Button/Button.scss ./components/Button/Button.css"
+    "watch": "sass --watch ."
   },
   "devDependencies": {
     "@repo/eslint-config": "workspace:*",
