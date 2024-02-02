@@ -11,6 +11,8 @@
     }
   },
   "scripts": {
+    "dev": "sass --watch .",
+    "build": "sass .",
     "lint": "eslint .",
     "watch": "sass --watch ."
   },
