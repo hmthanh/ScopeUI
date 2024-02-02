@@ -62,6 +62,7 @@
   font-weight: normal;
   line-height: 20px;
   color: var(--text-primary);
+  user-select: none;
   min-block-size: 32px;
 }
 .checkbox-container > span {
