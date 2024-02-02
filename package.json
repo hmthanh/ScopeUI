@@ -2,6 +2,8 @@
   "private": true,
   "scripts": {
     "build": "turbo run build",
+    "docs": "turbo run build --filter=docs",
+    "web": "turbo run build --filter=web",
     "dev": "turbo run dev",
     "lint": "turbo run lint",
     "format": "prettier --write ."
@@ -9,9 +11,9 @@
   "devDependencies": {
     "eslint": "^8.56.0",
     "@repo/eslint-config": "workspace:*",
-    "prettier": "^3.1.1",
+    "prettier": "^3.2.4",
     "prettier-plugin-svelte": "^3.1.2",
-    "turbo": "^1.12.1"
+    "turbo": "^1.12.2"
   },
   "packageManager": "pnpm@8.9.0",
   "engines": {
