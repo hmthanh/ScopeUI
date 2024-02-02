@@ -3,6 +3,9 @@
         Button, TextBlock, Checkbox, ToggleSwitch, RadioButton, ProgressRing, ProgressBar,
         InfoBadge,
         InfoBar,
+        IconButton,
+        MenuBar,
+        NavigationView, PersonPicture
     } from '@repo/ui';
 
     let flavor = "chocolate";
@@ -46,4 +49,17 @@
 </InfoBar>
 
 <!--<TextBox placeholder="Enter your name." />-->
+
+<IconButton>
+    <svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+        <path d="M8 14A6 6 0 108 2a6 6 0 000 12zm0-1A5 5 0 118 3a5 5 0 010 10z"/>
+    </svg>
+</IconButton>
+
+
+<MenuBar/>
+
+<NavigationView/>
+
+<PersonPicture/>
 
