@@ -2,7 +2,7 @@
     import {
         Button, TextBlock, Checkbox, ToggleSwitch, RadioButton, ProgressRing, ProgressBar,
         InfoBadge,
-        InfoBar
+        InfoBar,
     } from '@repo/ui';
 
     let flavor = "chocolate";
@@ -44,4 +44,6 @@
 <InfoBar title="Title" message="Message">
     <Button slot="action">Action</Button>
 </InfoBar>
+
+<!--<TextBox placeholder="Enter your name." />-->
 
