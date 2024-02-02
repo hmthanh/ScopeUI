@@ -41,12 +41,7 @@ A button gives the user a way to trigger an immediate action. Some buttons are s
         {...$$restProps}
 >
     <slot/>
-    Thanh
 </svelte:element>
-
-<!--<style lang="scss">-->
-<!--  @use './Button';-->
-<!--</style>-->
 
 <style lang="css">
     @import 'Button.css';
